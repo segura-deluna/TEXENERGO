@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <!-- Useful meta tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="robots" content="index, follow, noodp">
+  <meta name="googlebot" content="index, follow">
+  <meta name="google" content="notranslate">
+  <meta name="format-detection" content="telephone=no">
+
+  <title>TEXENERGO-Блог</title>
+  <link rel="icon" href="img/logo-tex.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/logo-tex.png" type="image/x-icon">
+  <link rel="stylesheet" href="fonts/fontawesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+
+<body>
+
+<header id="menu">
+  <section class="menu-top">
+    <div class="container">
+      <div class="row">
+        <div class="d-xl d-lg d-md col burger2">
+          <div class="menu-top__burger" data-toggle="modal" data-target="#exampleModal" id="btnModal2">
+            <i class="fa fa-bars" aria-hidden="true" id="bar2" ></i>
+            <label for="bar2">Всё оборудование</label>
+          </div>
+        </div>
+        <div class="col-xl-4 d-lg d-md d-col left">
+          <ul class="menu-top__left">
+            <li>
+              <a href="">Покупателям</a>
+            </li>
+            <li>
+              <a href="about.html">О нас</a>
+            </li>
+            <li>
+              <a href="blog.html">Блог</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-4  col-lg-2 col-md-2 col-2">
+          <div class="menu-top__logo">
+            <a href="index.html"><img src="img/tex_logo_high.png" alt="logo"></a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-6 col-5">
+          <ul class="menu-top__right">
+            <li>
+              <a href="#">
+                <i class="fa fa-code" aria-hidden="true"></i>&nbsp;
+                <span>API</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-search" aria-hidden="true"></i>&nbsp;
+                <span>Поиск</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-user" aria-hidden="true"></i>&nbsp;
+                <span>Личный кабинет</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-xl d-lg col-md-4 col-4 burger">
+          <div class="menu-top__burger" data-toggle="modal" data-target="#exampleModal" id="btnModal">
+            <i class="fa fa-bars" aria-hidden="true" id="bar"></i>
+            <label for="bar">Всё оборудование</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!--/.menu-top -->
+
+  <section class="menu-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-10 d-lg d-md">
+          <ul class="menu-bottom__left">
+            <li class="unit-down">
+              <a href="#">Электроустановочные изделия</a>
+            </li>
+            <li class="trigger-down">
+              <a href="#">Выключатели</a>
+            </li>
+            <li class="module-down">
+              <a href="#">Модульное оборудование</a>
+            </li>
+            <li class="starters-down">
+              <a href="#">Пускатели</a>
+            </li>
+            <li class="auto-down">
+              <a href="#">Автоматизация</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-xl col-lg-9 col-md-9 col-8 left2">
+          <ul class="menu-bottom__left2">
+            <li>
+              <a href="#">Покупателям</a>
+            </li>
+            <li>
+              <a href="post.html">О нас</a>
+            </li>
+            <li>
+              <a href="blog.html">Блог</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-3 col phone">
+          <div class="menu-bottom__phone">
+            <a href="#">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <p>+7 499 647-79-61</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!--/.menu-bottom -->
+
+</header> <!--/header -->
+
+
+
+<!-- ======= ВСПЛЫВАЮЩИЕ МЕНЮ ======== -->
+
+  <div id="menu-small" class="menu-bottom-small">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-1 col-lg-1 col-md-1 col-1 ">
+          <div class="menu-top__logo menu-bottom-small__logo">
+            <a href="index.html"><img src="img/tex_logo_high.png" alt="logo"></a>
+          </div>
+        </div>
+        <div class="d-xl d-lg col-md-8 col-sm-6 col-6 burger burger-small">
+          <div class="menu-top__burger menu-top__burger-small" data-toggle="modal" data-target="#exampleModal" id="btnModal3">
+            <i class="fa fa-bars" aria-hidden="true" id="bar3"></i>
+            <label for="bar3">Всё оборудование</label>
+          </div>
+        </div>
+        <div class="col-xl-9 d-lg d-md menu-bottom-small__list">
+          <ul class="menu-bottom__left menu-bottom__left-small">
+            <li class="unit-down">
+              <a href="#">Электроустановочные изделия</a>
+            </li>
+            <li class="trigger-down">
+              <a href="#">Выключатели</a>
+            </li>
+            <li class="module-down">
+              <a href="#">Модульное оборудование</a>
+            </li>
+            <li class="starters-down">
+              <a href="#">Пускатели</a>
+            </li>
+            <li class="auto-down">
+              <a href="#">Автоматизация</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-2 col seach">
+          <ul class="menu-top__right-small">
+            <li>
+              <a href="#"><i class="fa fa-code" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /menu-small -->
+
+  <div class="trigger-menu">
+    <div class="container">
+      <div class="trigger-menu__wrap">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4">
+            <div class="trigger-menu__img">
+              <img src="img/trigger_menu.png" alt="">
+            </div>
+            <div class="trigger-menu__link">
+              <a href="">Посмотреть все выключатели &rarr;</a>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Место установки</h5>
+              </div>
+              <ul>
+                <li><a href="">Офис</a></li>
+                <li><a href="">Дом</a></li>
+                <li><a href="">Производство</a></li>
+                <li><a href="">Цех</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Производитель</h5>
+              </div>
+              <ul>
+                <li><a href="">Schneider Electric</a></li>
+                <li><a href="">ABB</a></li>
+                <li><a href="">Texenergo</a></li>
+                <li><a href="">DKC</a></li>
+                <li><a href="">Legrand</a></li>
+                <li><a href="">TDM Electric</a></li>
+                <li><a href="">КЭАЗ</a></li>
+                <li><a href="">IEK</a></li>
+                <li><a href="">EKF</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Номинальный ток</h5>
+              </div>
+              <ul>
+                <li><a href="">1 A</a></li>
+                <li><a href="">1,6 A</a></li>
+                <li><a href="">2 A</a></li>
+                <li><a href="">2,5 A</a></li>
+                <li><a href="">3 A</a></li>
+                <li><a href="">4 A</a></li>
+                <li><a href="">6 A</a></li>
+                <li><a href="">6,3 A</a></li>
+                <li><a href="">10 A</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Код кривой</h5>
+              </div>
+              <ul>
+                <li><a href="">B</a></li>
+                <li><a href="">C</a></li>
+                <li><a href="">D</a></li>
+                <li><a href="">K</a></li>
+                <li><a href="">MA</a></li>
+                <li><a href="">Z</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /.dropdown-trigger-menu -->
+
+  <div class="starters-menu">
+    <div class="container">
+      <div class="trigger-menu__wrap">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4">
+            <div class="starters-menu__img">
+              <img src="img/PM16-500100.png" alt="">
+            </div>
+            <div class="trigger-menu__link">
+              <a href="starters.html">Посмотреть все пускатели &rarr;</a>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Место установки</h5>
+              </div>
+              <ul>
+                <li><a href="">Офис</a></li>
+                <li><a href="">Дом</a></li>
+                <li><a href="">Производство</a></li>
+                <li><a href="">Цех</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Производитель</h5>
+              </div>
+              <ul>
+                <li><a href="">Schneider Electric</a></li>
+                <li><a href="">ABB</a></li>
+                <li><a href="">Texenergo</a></li>
+                <li><a href="">DKC</a></li>
+                <li><a href="">Legrand</a></li>
+                <li><a href="">TDM Electric</a></li>
+                <li><a href="">КЭАЗ</a></li>
+                <li><a href="">IEK</a></li>
+                <li><a href="">EKF</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Номинальный ток</h5>
+              </div>
+              <ul>
+                <li><a href="">1 A</a></li>
+                <li><a href="">1,6 A</a></li>
+                <li><a href="">2 A</a></li>
+                <li><a href="">2,5 A</a></li>
+                <li><a href="">3 A</a></li>
+                <li><a href="">4 A</a></li>
+                <li><a href="">6 A</a></li>
+                <li><a href="">6,3 A</a></li>
+                <li><a href="">10 A</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Код кривой</h5>
+              </div>
+              <ul>
+                <li><a href="">B</a></li>
+                <li><a href="">C</a></li>
+                <li><a href="">D</a></li>
+                <li><a href="">K</a></li>
+                <li><a href="">MA</a></li>
+                <li><a href="">Z</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /.dropdown-starters-menu -->
+
+  <div class="module-menu">
+    <div class="container">
+      <div class="trigger-menu__wrap">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4">
+            <div class="module-menu__img">
+              <img src="img/offer_module.png" alt="">
+            </div>
+            <div class="trigger-menu__link">
+              <a href="starters.html">Посмотреть все модули &rarr;</a>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Место установки</h5>
+              </div>
+              <ul>
+                <li><a href="">Офис</a></li>
+                <li><a href="">Дом</a></li>
+                <li><a href="">Производство</a></li>
+                <li><a href="">Цех</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Производитель</h5>
+              </div>
+              <ul>
+                <li><a href="">Schneider Electric</a></li>
+                <li><a href="">ABB</a></li>
+                <li><a href="">Texenergo</a></li>
+                <li><a href="">DKC</a></li>
+                <li><a href="">Legrand</a></li>
+                <li><a href="">TDM Electric</a></li>
+                <li><a href="">КЭАЗ</a></li>
+                <li><a href="">IEK</a></li>
+                <li><a href="">EKF</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Номинальный ток</h5>
+              </div>
+              <ul>
+                <li><a href="">1 A</a></li>
+                <li><a href="">1,6 A</a></li>
+                <li><a href="">2 A</a></li>
+                <li><a href="">2,5 A</a></li>
+                <li><a href="">3 A</a></li>
+                <li><a href="">4 A</a></li>
+                <li><a href="">6 A</a></li>
+                <li><a href="">6,3 A</a></li>
+                <li><a href="">10 A</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Код кривой</h5>
+              </div>
+              <ul>
+                <li><a href="">B</a></li>
+                <li><a href="">C</a></li>
+                <li><a href="">D</a></li>
+                <li><a href="">K</a></li>
+                <li><a href="">MA</a></li>
+                <li><a href="">Z</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /.dropdown-module-menu -->
+
+  <div class="auto-menu">
+    <div class="container">
+      <div class="trigger-menu__wrap">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4">
+            <div class="auto-menu__img">
+              <img src="img/offer_auto.png" alt="">
+            </div>
+            <div class="trigger-menu__link">
+              <a href="starters.html">Посмотреть все модули &rarr;</a>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Место установки</h5>
+              </div>
+              <ul>
+                <li><a href="">Офис</a></li>
+                <li><a href="">Дом</a></li>
+                <li><a href="">Производство</a></li>
+                <li><a href="">Цех</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Производитель</h5>
+              </div>
+              <ul>
+                <li><a href="">Schneider Electric</a></li>
+                <li><a href="">ABB</a></li>
+                <li><a href="">Texenergo</a></li>
+                <li><a href="">DKC</a></li>
+                <li><a href="">Legrand</a></li>
+                <li><a href="">TDM Electric</a></li>
+                <li><a href="">КЭАЗ</a></li>
+                <li><a href="">IEK</a></li>
+                <li><a href="">EKF</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Номинальный ток</h5>
+              </div>
+              <ul>
+                <li><a href="">1 A</a></li>
+                <li><a href="">1,6 A</a></li>
+                <li><a href="">2 A</a></li>
+                <li><a href="">2,5 A</a></li>
+                <li><a href="">3 A</a></li>
+                <li><a href="">4 A</a></li>
+                <li><a href="">6 A</a></li>
+                <li><a href="">6,3 A</a></li>
+                <li><a href="">10 A</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Код кривой</h5>
+              </div>
+              <ul>
+                <li><a href="">B</a></li>
+                <li><a href="">C</a></li>
+                <li><a href="">D</a></li>
+                <li><a href="">K</a></li>
+                <li><a href="">MA</a></li>
+                <li><a href="">Z</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  <!-- /.dropdown-auto-menu -->
+
+  <div class="unit-menu">
+    <div class="container">
+      <div class="trigger-menu__wrap">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4">
+            <div class="unit-menu__img">
+              <img src="img/offer_auto.png" alt="">
+            </div>
+            <div class="trigger-menu__link">
+              <a href="starters.html">Посмотреть все модули &rarr;</a>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Место установки</h5>
+              </div>
+              <ul>
+                <li><a href="">Офис</a></li>
+                <li><a href="">Дом</a></li>
+                <li><a href="">Производство</a></li>
+                <li><a href="">Цех</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Производитель</h5>
+              </div>
+              <ul>
+                <li><a href="">Schneider Electric</a></li>
+                <li><a href="">ABB</a></li>
+                <li><a href="">Texenergo</a></li>
+                <li><a href="">DKC</a></li>
+                <li><a href="">Legrand</a></li>
+                <li><a href="">TDM Electric</a></li>
+                <li><a href="">КЭАЗ</a></li>
+                <li><a href="">IEK</a></li>
+                <li><a href="">EKF</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Номинальный ток</h5>
+              </div>
+              <ul>
+                <li><a href="">1 A</a></li>
+                <li><a href="">1,6 A</a></li>
+                <li><a href="">2 A</a></li>
+                <li><a href="">2,5 A</a></li>
+                <li><a href="">3 A</a></li>
+                <li><a href="">4 A</a></li>
+                <li><a href="">6 A</a></li>
+                <li><a href="">6,3 A</a></li>
+                <li><a href="">10 A</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <div class="trigger-menu__list">
+              <div class="trigger-menu__list_head">
+                <h5>Код кривой</h5>
+              </div>
+              <ul>
+                <li><a href="">B</a></li>
+                <li><a href="">C</a></li>
+                <li><a href="">D</a></li>
+                <li><a href="">K</a></li>
+                <li><a href="">MA</a></li>
+                <li><a href="">Z</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  <!-- /.dropdown-unit-menu -->
+
+<section class="background">
+
+  <section class="blog2">
+    <img src="img/blog_bg.jpg" alt="blog-bg" class="blog2__bg">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Последние новости из блога</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-xl-5 offset-lg-3 offset-md-2 ">
+          <p class="blog2__item_p">
+            Здесь Вы можете узнать последние новости из нашей жизни.
+            Мы стараемся публиковать новую статью каждую неделю,
+            что позволяет Вам более эффективно выбирать электрооборудование
+            или получить более полную информации о способе применения
+            тех или иных приспособлений<br>
+            Мы стараемся максимально упростить задачу взаимодействия с нами
+          </p>
+          <div class="blog2__item_link">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-4">
+                <ul class="blog2__item_link1">
+                  <li class="first"><a href="post.html">&rarr; Новости</a></li>
+                  <li><a href="">Инструкции</a></li>
+                  <li><a href="">Лайфхаки</a></li>
+                </ul>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                <ul class="blog2__item_link2">
+                  <li><a href="">Галерея работ</a></li>
+                  <li><a href="">Новое электрооборудование</a></li>
+                  <li><a href="">Производство</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 blog-left blog2-left">
+          <div class="blog2__card-left blog2__card ">
+            <img src="img/card-left.png" alt="left">
+            <p class="blog__card_data">
+              12-12-2017
+              <span><i class="fa fa-heart" aria-hidden="true"></i> 5</span>
+            </p>
+            <p class="blog__left_p">
+              Wiring a new boiler that requires SWL & pump
+              overrun, why is old wring always so badly done
+              and such a mess?!
+            </p>
+            <a href="blog.html">Читать далее</a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 blog-middle blog2-middle">
+          <div class="blog2__card-middle blog2__card ">
+            <img src="img/card-middle.png" alt="middle">
+            <p class="blog__card_data">
+              10-11-2017
+              <span><i class="fa fa-heart" aria-hidden="true"></i> 3</span>
+            </p>
+            <p>
+              Вот всё, что надо знать почему пускатель
+              необходимо защищать автоматом.
+              Тепловое реле - это не защита. Ни в ABP, ни в
+              управлении двигателем.
+            </p>
+            <a href="blog.html">Читать далее</a>
+          </div>
+        </div>
+        <div class="col-xl-4 d-lg d-md d-sm blog-right blog2-right">
+          <div class="blog2__card-right blog2__card ">
+            <img src="img/card-right.png" alt="right">
+            <p class="blog__card_data">
+              15-12-2017
+              <span><i class="fa fa-heart" aria-hidden="true"></i> 1</span>
+            </p>
+            <p class="blog__right_p">
+              Зачем нужна усиленная DIN рейка? Время и
+              место! Чтобы вот такое с монтажками и рейками
+              не городить
+            </p>
+            <a href="blog.html">Читать далее</a>
+          </div>
+        </div>
+      </div>
+      <div class="blog2__down">
+        <div class="row">
+          <div class="col-xl-4 d-lg d-md blog-left blog2-left blog2-left-down">
+            <div class="blog2__card-left blog2__card ">
+              <img src="img/card-left.png" alt="left">
+              <p class="blog__card_data">
+                12-12-2017
+                <span><i class="fa fa-heart" aria-hidden="true"></i> 5</span>
+              </p>
+              <p class="blog__left_p">
+                Wiring a new boiler that requires SWL & pump
+                overrun, why is old wring always so badly done
+                and such a mess?!
+              </p>
+              <a href="blog.html">Читать далее</a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 blog-middle blog2-middle blog2-middle-down">
+            <div class="blog2__card-middle blog2__card ">
+              <img src="img/card-middle.png" alt="middle">
+              <p class="blog__card_data">
+                10-11-2017
+                <span><i class="fa fa-heart" aria-hidden="true"></i> 3</span>
+              </p>
+              <p>
+                Вот всё, что надо знать почему пускатель
+                необходимо защищать автоматом.
+                Тепловое реле - это не защита. Ни в ABP, ни в
+                управлении двигателем.
+              </p>
+              <a href="blog.html">Читать далее</a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 blog-right blog2-right-down">
+            <div class="blog2__card-right blog2__card ">
+              <img src="img/card-right.png" alt="right">
+              <p class="blog__card_data">
+                15-12-2017
+                <span><i class="fa fa-heart" aria-hidden="true"></i> 1</span>
+              </p>
+              <p class="blog__right_p">
+                Зачем нужна усиленная DIN рейка? Время и
+                место! Чтобы вот такое с монтажками и рейками
+                не городить
+              </p>
+              <a href="blog.html">Читать далее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- /.blog2 -->
+
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 d-md d-sm d-col left-f">
+          <div class="footer__left">
+            <div class="footer__left_head">
+              <h3>Покупателям</h3>
+            </div>
+            <div class="footer__left_item">
+              <ul>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Поиск</a></li>
+                <li><a href="#">Политика конфиденциальности</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-8 col-sm-10 col-10">
+          <div class="footer__middle">
+            <div class="footer__middle_head">
+              <h3>Каталог</h3>
+            </div>
+            <div class="footer__middle_item">
+              <div class="row">
+                <div class="col-4">
+                  <div class="footer__middle_item-link">
+                    <h4>Производители</h4>
+                    <ul>
+                      <li><a href="#">Shneider Electric</a></li>
+                      <li><a href="#">Texenergo</a></li>
+                      <li><a href="#">ABB</a></li>
+                      <li><a href="#">IEK</a></li>
+                      <li><a href="#">Legrand</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-8 col-9">
+                  <div class="footer__middle_item-link2">
+                    <h4>Категории</h4>
+                    <ul>
+                      <li><a href="#">Электроустановочные изделия</a></li>
+                      <li><a href="#">Пускатели электромагнитные ПМА</a></li>
+                      <li><a href="#">Автоматические выключатели</a></li>
+                      <li><a href="#">Пускатели электромагнитные</a></li>
+                      <li><a href="#">Модульное оборудование</a></li>
+                      <li><a href="#">Устройства управления и контроля</a></li>
+                      <li><a href="#">Устройства автоматизации</a></li>
+                      <li><a href="#">Преобразователи частоты (инверторы)</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-7">
+          <div class="footer__right">
+            <div class="footer__right_head">
+              <h3>Консультации</h3>
+            </div>
+            <div class="footer__right_tel">
+              +7 (499) 647-79-61
+            </div>
+            <ul>
+              <li><a href="#">Перезвонить?</a></li>
+              <li class="footer__right_mail">info@texenergo.ru</li>
+              <li class="footer__right_table">Каждый день с 8.00 - 17.00</li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-xl d-lg col-md-6 col-sm-6 col-7 left2-f">
+          <div class="footer__left2">
+            <div class="footer__left_head">
+              <h3>Покупателям</h3>
+            </div>
+            <div class="footer__left_item">
+              <ul>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Поиск</a></li>
+                <li><a href="#">Политика конфиденциальности</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- /.footer -->
+
+</section> <!-- /.background -->
+
+
+
+
+<!--============== MODAL WINDOW ===============-->
+
+  <div class="modal fade" id="exampleModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-header__top">
+          <div class="menu-top__logo modal-header__top_logo">
+            <img src="img/tex_logo_high.png" alt="logo">
+          </div>
+          <button type="button" class="close modal-button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;  Закрыть</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <section class="offer offer-modal">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12 col">
+                <div class="offer__start offer__start_modal">
+                  <img src="img/offer_start.png" alt="Start">
+                </div>
+                <div class="offer__start_item offer__start_item-modal">
+                  <h3>Электромагнитные<br>Пускатели</h3>
+                  <p>
+                    Пускатели предназначены для частого
+                    включения и отключения силовых
+                    электрических цепей. Часто это трёхфазные
+                    электродвигатели
+                  </p>
+                  <a href="starters.html">Посмотреть все &rarr;</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 col">
+                <div class="offer__auto offer__auto_modal">
+                  <img src="img/offer_auto.png" alt="Auto">
+                </div>
+                <div class="offer__auto_item offer__auto_item-modal">
+                  <h3>
+                    Автоматизация
+                  </h3>
+                  <p>
+                    Каталог модульного оборудования,
+                    предлагаемый нами в данном разделе позволит
+                    приобрести все необходимые устройства для
+                    обеспечения безопасности
+                  </p>
+                  <a href="starters.html">Посмотреть все &rarr;</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 col">
+                <div class="offer__auto offer__auto_modal trigger-modal">
+                  <img src="img/trigger_modal.png" alt="Trigger">
+                </div>
+                <div class="offer__auto_item offer__auto_item-modal">
+                  <h3>
+                    Выключатели
+                  </h3>
+                  <p>
+                    Каталог модульного оборудования,
+                    предлагаемый нами в данном разделе позволит
+                    приобрести все необходимые устройства для
+                    обеспечения безопасности
+                  </p>
+                  <a href="starters.html">Посмотреть все &rarr;</a>
+                </div>
+              </div>
+              <div class="d-lg col-md-6 col-sm-12 col">
+                <div class="offer__module offer__module_modal">
+                  <img src="img/offer_module.png" alt="Module">
+                </div>
+                <div class="offer__module_item offer__module_item-modal">
+                  <h3>
+                    Модульное <br>оборудование
+                  </h3>
+                  <p>
+                    Каталог модульного оборудования,
+                    предлагаемый нами в данном разделе позволит
+                    приобрести все необходимые устройства для
+                    обеспечения безопасности
+                  </p>
+                  <a href="starters.html">Посмотреть все &rarr;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> <!--/.offer -->
+      </div>
+    </div>
+  </div>
+</div> <!-- /.modal -->
+
+
+
+
+  <!--=== JS ===-->
+
+  <script defer src="js/jquery-3.2.1.min.js"></script>
+  <script defer src="js/bootstrap.min.js"></script>
+  <script defer src="js/jquery-migrate-1.2.1.min.js"></script>
+  <script defer src="js/prefixfree.min.js"></script>
+  <script defer src="js/main.js"></script>
+
+</body>
+</html>
