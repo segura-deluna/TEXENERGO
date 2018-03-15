@@ -1618,6 +1618,10 @@
     font-size: 24px;
   }
 
+  .description {
+    font-size: 15px;
+  }
+
 
 }
 
@@ -1652,6 +1656,10 @@
 
   .p404__search input {
     margin-bottom: 200px;
+  }
+
+  .description {
+    font-size: 14px;
   }
 
 
@@ -1741,7 +1749,6 @@
     font-size: 22px;
   }
 
-
 }
 
 
@@ -1807,6 +1814,11 @@
   .product-starters__item_status p {
     margin-right: 29%;
   }
+
+  .description {
+    font-size: 13px;
+  }
+
 
   .description__parametr_list1 ul li,
   .description__parametr_list2 ul li {
@@ -2024,6 +2036,16 @@
 
   .p404__wrap h2 {
     font-size: 110px;
+  }
+
+  .description__parametr_list1 ul li,
+  .description__parametr_list2 ul li {
+    font-size: 12px;
+  }
+
+  .description__parametr_list1 ul li span,
+  .description__parametr_list2 ul li span {
+    font-size: 10px;
   }
 
 

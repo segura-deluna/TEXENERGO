@@ -2027,6 +2027,7 @@ a:hover {
 
 .description {
   font-family: 'Museo Sans Cyrl',sans-serif;
+  font-size: 16px;
   margin-top: 110px;
 }
 
@@ -2048,6 +2049,8 @@ a:hover {
   margin-top: 45px;
 }
 
+
+
 .description__parametr_list1 {
   margin-top: 30px;
 }
@@ -2056,11 +2059,17 @@ a:hover {
   margin-top: 103px;
 }
 
+.description__parametr_list1 li,
+.description__parametr_list2 li {
+  display: flex;
+  justify-content: space-between;
+  max-width: 340px;
+}
+
 .description__parametr_list1 span,
 .description__parametr_list2 span {
   font-size: 14px;
   color: #6a6a69;
-
 }
 
 .description__doc {
