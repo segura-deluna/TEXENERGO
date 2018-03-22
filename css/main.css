@@ -1772,15 +1772,50 @@ a:hover {
 .product-starters__item_status p {
   font-size: 14px;
   color: #a9a9a9;
-  margin-right: 98px;
+  margin-right: 80px;
 }
 
 .product-starters__star {
+  transform: translate(50%, 10%) ;
+  display: flex;
+}
+
+.product-starters__star input {
+  display: none;
+}
+
+.product-starters__star label {
+  display: block;
+  cursor: pointer;
+}
+
+.product-starters__star label::before {
+  font-family: 'Font Awesome\ 5 Pro';
+  content: "\f005";
+  font-weight: 200;
+  font-size: 16px;
+  position: relative;
+  display: block;
   color: #ffdf65;
 }
 
-.product-starters__star i {
-  font-size: 14px;
+.product-starters__star label::after {
+  font-family: 'Font Awesome\ 5 Pro';
+  content: '\f005';
+  font-weight: 900;
+  font-size: 16px;
+  position: absolute;
+  display: block;
+  color: #ffdf65;
+  top: 0;
+  opacity: 0;
+  transition: .5s;
+}
+
+.product-starters__star label:hover::after,
+.product-starters__star label:hover ~ label::after,
+.product-starters__star input:checked ~ label::after {
+  opacity: 1;
 }
 
 .product-starters__item_price {
@@ -1944,19 +1979,54 @@ a:hover {
 .item-card__status {
   display: flex;
   justify-content: space-between;
+  margin-top: 15px;
 }
 
 .item-card__status_star {
+  transform: translate(10%, 10%) ;
   display: flex;
+}
+
+.item-card__status_star input {
+  display: none;
+}
+
+.item-card__status_star label {
+  display: block;
+  cursor: pointer;
+}
+
+.item-card__status_star label::before {
+  font-family: 'Font Awesome\ 5 Pro';
+  content: "\f005";
+  font-weight: 200;
+  font-size: 24px;
+  position: relative;
+  display: block;
   color: #ffdf65;
 }
 
-.item-card__status_star i {
+.item-card__status_star label::after {
+  font-family: 'Font Awesome\ 5 Pro';
+  content: '\f005';
+  font-weight: 900;
   font-size: 24px;
+  position: absolute;
+  display: block;
+  color: #ffdf65;
+  top: 0;
+  opacity: 0;
+  transition: .5s;
 }
 
-.item-card__status {
-  margin-top: 15px;
+.item-card__status_star label:hover::after,
+.item-card__status_star label:hover ~ label::after,
+.item-card__status_star input:checked ~ label::after {
+  opacity: 1;
+}
+
+.item-card__status_check {
+  margin-top: 10px;
 }
 
 .item-card__status_check p {
@@ -2198,7 +2268,7 @@ a:hover {
 .companion__item_status p {
   font-size: 14px;
   color: #a9a9a9;
-  margin-right: 98px;
+  margin-right: 80px;
 }
 
 .companion__star {

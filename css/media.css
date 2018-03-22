@@ -1112,7 +1112,8 @@
     font-size: 40px;
   }
 
-  .item-card__status_star i {
+  .item-card__status_star label::before,
+  .item-card__status_star label::after {
     font-size: 20px;
   }
 
