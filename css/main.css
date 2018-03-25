@@ -413,6 +413,7 @@ a:hover {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   position: absolute;
+  padding: 0 70px;
   z-index: 100;
 }
 
@@ -427,6 +428,9 @@ a:hover {
 }
 
 .search-menu__search form {
+  border: none;
+  outline: none;
+  background: transparent;
   margin-top: 60px;
 }
 
@@ -438,7 +442,7 @@ a:hover {
   background: transparent;
   border: none;
   border-bottom: 1px solid #f28c00;
-  margin: -20px 0 0 200px;
+  margin: -20px 0 0 15%;
   padding-left: 15px;
 }
 
@@ -449,18 +453,14 @@ a:hover {
   color: #000;
 }
 
-.search-menu__saerch_btn i {
+.search-menu__search_btn i {
   font-size: 40px;
   font-weight: 200;
 }
 
-.search-menu__saerch_btn i:hover {
+.search-menu__search_btn i:hover {
   cursor: pointer;
   color: #f28c00;
-}
-
-.search-menu__wrap {
-  padding: 0 70px;
 }
 
 .search-menu__head {
@@ -481,7 +481,8 @@ a:hover {
 
 .search-menu__head_link {
   display: flex;
-  justify-content: right;
+  float: right;
+  margin-top: 7px;
 }
 
 .search-menu__head_link a {
@@ -494,7 +495,7 @@ a:hover {
 
 .search-menu__head_close {
   display: flex;
-  justify-content: right;
+  float: right;
 }
 
 .search-menu__head_close a {
@@ -551,7 +552,7 @@ a:hover {
 
 .search-menu__body_info h4 {
   font-family: 'Museo Sans Cyrl',sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 1.5em;
   color: #2e2e2e;
@@ -580,6 +581,32 @@ a:hover {
   color: #e9540b;
 }
 
+.search-menu__body_arrow-up,
+.search-menu__body_arrow-down {
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.sc_menu_wrapper {
+  position: relative;
+  height: 260px;
+  width: 215px;
+  overflow: auto;
+}
+
+.sc_menu {
+  padding: 15px 18px;
+}
+
+.sc_menu a {
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.sc_menu a:hover {
+  color: #f28c00 !important;
+}
 
 
 
@@ -1788,7 +1815,7 @@ a:hover {
 }
 
 .product-starters__star label::before {
-  font-family: 'Font Awesome\ 5 Pro';
+  font-family: 'Font Awesome\ 5 Pro',sans-serif;
   content: "\f005";
   font-weight: 200;
   font-size: 16px;
@@ -1798,7 +1825,7 @@ a:hover {
 }
 
 .product-starters__star label::after {
-  font-family: 'Font Awesome\ 5 Pro';
+  font-family: 'Font Awesome\ 5 Pro',sans-serif;
   content: '\f005';
   font-weight: 900;
   font-size: 16px;
@@ -1995,7 +2022,7 @@ a:hover {
 }
 
 .item-card__status_star label::before {
-  font-family: 'Font Awesome\ 5 Pro';
+  font-family: 'Font Awesome\ 5 Pro',sans-serif;
   content: "\f005";
   font-weight: 200;
   font-size: 24px;
@@ -2005,7 +2032,7 @@ a:hover {
 }
 
 .item-card__status_star label::after {
-  font-family: 'Font Awesome\ 5 Pro';
+  font-family: 'Font Awesome\ 5 Pro',sans-serif;
   content: '\f005';
   font-weight: 900;
   font-size: 24px;
