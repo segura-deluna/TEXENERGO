@@ -7,12 +7,17 @@
     right: -50px;
   }
 
+  .search-menu__search input {
+    margin-left: 10%;
+  }
+
 }
 
 
 
 /*=========================== 1201px ============*/
 @media (min-width: 1201px) {
+
   .left2 {
     display: none;
   }
@@ -48,6 +53,12 @@
 
 /*=========================== 1200px ============*/
 @media (max-width: 1200px) {
+
+  .search-menu__search input {
+    width: 80%;
+    margin-left: 9%;
+  }
+
   .container {
     overflow-x: hidden;
   }
