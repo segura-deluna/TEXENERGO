@@ -414,7 +414,7 @@ a:hover {
   border-bottom-right-radius: 30px;
   position: absolute;
   padding: 0 70px;
-  z-index: 100;
+  z-index: 500;
 }
 
 .search-menu__search {
