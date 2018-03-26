@@ -1852,6 +1852,14 @@
 /*=========================== 382px ===========*/
 @media (max-width: 382px) {
 
+  .search-menu__search input::placeholder {
+    font-size: 30px;
+  }
+
+  .search-menu__search_btn i {
+    font-size: 30px;
+  }
+
   .info-items__wrapper {
     padding: 45px 0 25px 35px;
   }
